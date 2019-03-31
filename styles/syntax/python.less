@@ -1,11 +1,18 @@
 .syntax--source.syntax--python {
     // function color in @cyan
-    .syntax--meta.syntax--function-call.syntax--generic {
+    .syntax--function-call.syntax--generic {
         color: @cyan
     }
 
-    .syntax--support.syntax--function.syntax--magic {
+    .syntax--function.syntax--magic {
+        color: @sea-green;
         font-style: italic;
-        color: @blue;
+        font-weight: bold;
     }
+
+    .syntax--variable.syntax--magic {
+        font-weight: bold;
+        font-style: italic;
+    }
+
 }
